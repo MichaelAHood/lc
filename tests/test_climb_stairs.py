@@ -14,7 +14,6 @@ def test_climbing_stairs() -> None:
         TestCase(input=4, want=5),
         TestCase(input=5, want=8),
         TestCase(input=6, want=13),
-        # Not sure how I missed that this is the Fibonacci sequence.
     ]
 
     for case in cases:
