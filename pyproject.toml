@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lc"
+version = "0.1.0"
+description = "Problem solving practice"
+authors = ["Michael Hood"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.288"
+black = "^23.9.1"
+pytest = "^7.4.2"
+mypy = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
